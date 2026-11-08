@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JT’s Almanac: a calendar of world occasions, with essays on the stories and traditions behind them.">
+  <title>JT's Almanac · A calendar of world occasions</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="calendar.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to calendar</a>
+  <header class="site-header wrap"><a class="wordmark" href="index.html">JT’s Almanac<span>A calendar of world occasions</span></a><span class="header-note">Stories for the turning year</span></header>
+  <main class="wrap" id="main">
+    <section class="intro" aria-labelledby="intro-title">
+      <p class="eyebrow">Light, memory &amp; homecoming</p>
+      <h1 id="intro-title">Every occasion<br>has a story.</h1>
+      <p>A place for the days that bring us together.<br>Explore the celebrations, histories and traditions that give the year its colour.</p>
+    </section>
+    <section class="calendar-section" aria-labelledby="month-title">
+      <div class="calendar-toolbar">
+        <div><p class="eyebrow">The calendar</p><h2 id="month-title" aria-live="polite" aria-atomic="true">This month</h2></div>
+        <nav class="month-controls" aria-label="Calendar months">
+          <button id="previous-month" type="button" aria-label="Previous month">←</button>
+          <button id="current-month" type="button">Today</button>
+          <button id="next-month" type="button" aria-label="Next month">→</button>
+        </nav>
+      </div>
+      <p id="calendar-status" class="status" role="status">Loading occasions…</p>
+      <div class="calendar-scroll" tabindex="0" role="region" aria-label="Monthly calendar. Scroll horizontally on small screens.">
+        <table class="calendar" aria-labelledby="month-title">
+          <thead><tr><th scope="col"><abbr title="Monday">Mon</abbr></th><th scope="col"><abbr title="Tuesday">Tue</abbr></th><th scope="col"><abbr title="Wednesday">Wed</abbr></th><th scope="col"><abbr title="Thursday">Thu</abbr></th><th scope="col"><abbr title="Friday">Fri</abbr></th><th scope="col"><abbr title="Saturday">Sat</abbr></th><th scope="col"><abbr title="Sunday">Sun</abbr></th></tr></thead>
+          <tbody id="calendar-days"></tbody>
+        </table>
+      </div>
+      <div class="calendar-key"><span><i class="key-major" aria-hidden="true"></i>Major occasion</span><span><i class="key-minor" aria-hidden="true"></i>Minor occasion</span><span class="scroll-hint">Swipe calendar to explore →</span></div>
+    </section>
+    <section class="month-entries" aria-labelledby="entries-title">
+      <div class="section-heading"><p class="eyebrow">A closer look</p><h2 id="entries-title">This month’s stories</h2></div>
+      <ul id="entries-list" class="entries-list"></ul>
+      <p id="empty-month" hidden>No occasions recorded this month. There are more stories in the months around it.</p>
+    </section>
+    <noscript><p>Please enable JavaScript to load the calendar. Read the essays on <a href="essays/2026-09-25-mid-autumn-festival.html">Mid-Autumn Festival</a>, <a href="essays/2026-10-31-halloween.html">Halloween</a>, <a href="essays/2026-11-05-bonfire-night.html">Bonfire Night</a> and <a href="essays/2026-11-08-diwali.html">Diwali</a>.</p></noscript>
+  </main>
+  <footer class="site-footer wrap">JT’s Almanac · A little more meaning in every month.</footer>
+</body>
+</html>

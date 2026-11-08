@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-09-25",
+    "title": "Mid-Autumn Festival",
+    "significance": "major",
+    "summary": "A family gathered beneath the moon: harvest, gratitude and reunion.",
+    "page": "essays/2026-09-25-mid-autumn-festival.html"
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Halloween",
+    "significance": "major",
+    "summary": "Play, hospitality, unease and remembrance at the threshold of winter.",
+    "page": "essays/2026-10-31-halloween.html"
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Bonfire Night",
+    "significance": "major",
+    "summary": "The history beneath an autumn evening of bonfires and fireworks.",
+    "page": "essays/2026-11-05-bonfire-night.html"
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Diwali",
+    "significance": "major",
+    "summary": "Lamps, homecoming and the many meanings of a shared season.",
+    "page": "essays/2026-11-08-diwali.html"
+  }
+]
