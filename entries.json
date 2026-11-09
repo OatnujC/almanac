@@ -75,5 +75,33 @@
     "significance": "minor",
     "summary": "A day for the quiet craft of making places that people can live in well.",
     "page": "essays/2026-11-08-world-town-planning-day.html"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Fall of the Berlin Wall",
+    "significance": "major",
+    "summary": "The anniversary of 9 November 1989, when East Germany’s border opened after 28 years and the Cold War’s sharpest symbol began to fall.",
+    "page": "essays/2026-11-09-fall-of-the-berlin-wall.html"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Kristallnacht",
+    "significance": "major",
+    "summary": "The anniversary of the November 1938 pogrom across Nazi Germany, a turning point on the road to the Holocaust.",
+    "page": "essays/2026-11-09-kristallnacht.html"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Independence Day (Cambodia)",
+    "significance": "minor",
+    "summary": "Cambodia’s national holiday for its 1953 independence from France.",
+    "page": "essays/2026-11-09-cambodia-independence-day.html"
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Amavasya (new moon day, Diwali week)",
+    "significance": "minor",
+    "summary": "The new moon day that runs until midday in New Delhi, the gap day between Diwali and Govardhan Puja this year.",
+    "page": "essays/2026-11-09-somvati-amavasya.html"
   }
 ]
