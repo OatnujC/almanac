@@ -30,4 +30,4 @@ In the repository’s **Settings → Pages**, choose **Deploy from a branch**, s
 
 From this directory, run `python3 -m http.server 8000` and open `http://localhost:8000`. Use an HTTP server: opening `index.html` as a local file can prevent `fetch` from loading the entries.
 
-The four original essays and their sources are transcribed word for word from `/workspace/almanac-canvas.txt`. Their original time references, including the Diwali essay’s 7 November 2026 perspective, are preserved.
+Each essay is a full-length piece (roughly 500–2,000 words of body text) with light `<h2>` subheadings inside `.prose` and a linked source list at the end. The essays were expanded and fact-checked on 9 November 2026; the Diwali essay reflects the main day of Sunday 8 November 2026.
